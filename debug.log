@@ -78,3 +78,4 @@
 [1119/173355.838:ERROR:exception_snapshot_win.cc(99)] thread ID 19740 not found in process
 [1119/173356.692:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
 [1119/173356.692:ERROR:exception_snapshot_win.cc(99)] thread ID 13680 not found in process
+[1119/174459.189:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
