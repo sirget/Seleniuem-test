@@ -2,11 +2,12 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver import ActionChains
+from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome('./chromedriver')
 
-# driver.get("https://thaipcmarket.web.app/")
-driver.get("https://thaipcmarket.web.app/cpu")
+driver.get("https://thaipcmarket.web.app/")
+# driver.get("https://thaipcmarket.web.app/cpu")
 
 # get อาจมีปัญหาถ้าใช้ AJAX มากเกินไป
 
@@ -76,6 +77,6 @@ def cookies():
 # findbyclassname()
 # findbylinktext()
 # select()
-selectwithSelect()
+# selectwithSelect()
 
 print(driver.current_url)
